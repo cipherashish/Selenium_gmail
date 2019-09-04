@@ -26,7 +26,7 @@ driver.close();
 if(at.equalsIgnoreCase(et))
 {
 	System.out.println("test successful");
-}}}}
+}
 
 else {
 	System.out.println("test failure");
