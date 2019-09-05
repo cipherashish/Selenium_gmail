@@ -8,7 +8,7 @@ public class Demo {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-	System.setProperty("webdriver.chrome.driver", "E:\\avan\\chromedriver_win32\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "\\var\\lib\\jenkins\\workspace\\driver\\chromedriver.exe");
   WebDriver driver =new ChromeDriver();
   driver.get("http://www.gmail.com/");
   driver.manage().window().maximize();
